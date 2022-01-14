@@ -1,10 +1,98 @@
  
- 
- /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 
 /* common styles or utilities */
+.container{
+    max-width: 1047px;
+    margin: auto;
+}
+
+
+
+
+
+
+/* Brand Area Start */
+
+.hr-style{ /* horizontal Broder Style */
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(5, 5, 5, 0.521), rgba(255, 0, 0, 0));
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Brand Area Ends */
+
+/* Popular Collection Area Start */
+.section-title{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.products-banner img{
+    width: 300px;
+    height: 256px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+.products-title{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0px;
+    color: #18191F;
+}
+.products-details{
+    margin-left: 14px;
+    
+}
+.products-details p{
+    font-size: 24px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color: #000000DE;
+}
+.products-bottom{
+    display: flex;
+    align-items: center;
+
+}
+.products-reviews{
+    color: #FB8200;
+    font-size: 15px;
+}
+.products-reviews span{
+    color: #5E6366;
+}
+.products-shifting p, span{
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    color: #787885;
+}
+.products-item{
+    width: 329px;
+    height: 476px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.267);
+    border-radius: 5px;
  
+}
+
+.products-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+    margin: ;
+}
+
+
+
 
 /* top playes style */
  
