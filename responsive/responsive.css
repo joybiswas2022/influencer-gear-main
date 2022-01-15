@@ -1,7 +1,7 @@
 /* Media queries */
 @media only screen and (max-width: 688px){
     .container {
-        margin: 1em 2em;
+    margin: 1em 2em;
       }
        
     .header-area{
@@ -21,59 +21,7 @@
         margin-left: 10px;
 
     }
-    .right-area img{
-        width: 80%;
-        position: absolute;
-
-    }
-    .left-area {
-        width: 100%;
-        
-    }
-    .left-area h1{
-        font-size: 28px;
-        text-align: center;
-    }
-    .left-area p{
-        text-align: center;
-        margin: 20px 5px;
-
-    }
-    .btn{
-        text-align: center;
-        margin-left: 70px;
-        font-size: 20px;
-    }
-    .right-area img{
-        width: 80%;
-     margin: 50px 30px 
-    }
-    
-    
-    .brand-logo{
-        display: block;
-        margin: 0px 0px ;
-        text-align: center;
-    }
-    .brand-logo img{
-        justify-content: center;
-        padding: 10px 10px ;
-    }
-    .products-area{
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-    }
-
-    .see-more-btn{
-        margin-left: 230px;
-    }
-
-    .exta-area-item img{
-        width: 20%;
-        margin: 0;
-    }
-    
-    }
+       
     .right-area img{
         width: 80%;
         position: absolute;
@@ -97,27 +45,25 @@
     }
     .right-area img{
         width: 80%;
-     margin: 30px  
-    }
-        
+    margin: 30px  
+    } 
     .brand-logo{
-        display: block;
-        margin: 0px 0px ;
-        text-align: center;
+    display: block;
+    margin: 0px 0px ;
+    text-align: center;
     }
     .brand-logo img{
-        justify-content: center;
-        padding: 10px 10px ;
+    justify-content: center;
+    padding: 10px 10px ;
     }
     .products-area{
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: space-between;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
     }
-    .extra-section{
-        width: 100%;
-        margin: 0;
+    .extra-section, .exta-area-item {
+        margin: 0px;
+        width: 90%;
     }
-        
 }
 
 /* tablat device */
@@ -184,6 +130,14 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content:space-between;
     margin-left: 20px;
+    }
+    .see-more-btn{
+        margin-left: 660px;
+        margin-bottom: 20px;
+    }
+    .extra-section, .exta-area-item {
+        margin: 0px;
+        width: 93%;
     }
 }
 
