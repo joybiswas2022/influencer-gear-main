@@ -1,0 +1,128 @@
+/* Media queries */
+@media only screen and (max-width: 688px){
+    .container {
+        margin: 1em 2em;
+      }
+       
+    .header-area{
+        text-align: center;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;  
+
+    }
+    
+           
+
+    }
+    .top-section{
+        position: relative;
+        margin: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 420px;
+        margin-left: 10px;
+
+    }
+    .right-area img{
+        width: 80%;
+        position: absolute;
+
+    }
+    .left-area {
+        width: 100%;
+        
+    }
+    .left-area h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .left-area p{
+        text-align: center;
+        margin: 20px 5px;
+
+    }
+    .btn{
+        text-align: center;
+        margin-left: 70px;
+        font-size: 20px;
+    }
+    .right-area img{
+        width: 80%;
+     margin: 50px 30px 
+    }
+    
+    
+    .brand-logo{
+        display: block;
+        margin: 0px 0px ;
+        text-align: center;
+    }
+    .brand-logo img{
+        justify-content: center;
+        padding: 10px 10px ;
+    }
+    .products-area{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .see-more-btn{
+        margin-left: 230px;
+    }
+
+    .exta-area-item img{
+        width: 20%;
+        margin: 0;
+    }
+    
+    }
+    .right-area img{
+        width: 80%;
+        position: absolute;
+
+    }
+    .left-area {
+        width: 100%;
+        
+    }
+    .left-area h1{
+        font-size: 38px;
+        text-align: center;
+    }
+    .left-area p{
+        text-align: center;
+    }
+    .btn{
+        text-align: center;
+        margin-left: 90px;
+        font-size: 20px;
+    }
+    .right-area img{
+        width: 80%;
+     margin: 30px  
+    }
+        
+    .brand-logo{
+        display: block;
+        margin: 0px 0px ;
+        text-align: center;
+    }
+    .brand-logo img{
+        justify-content: center;
+        padding: 10px 10px ;
+    }
+    .products-area{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+    }
+    .extra-section{
+        width: 100%;
+        margin: 0;
+    }
+        
+}
+
+@media only screen and (max-width:px){
+
