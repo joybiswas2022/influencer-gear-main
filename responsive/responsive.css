@@ -11,10 +11,6 @@
         justify-content: space-between;  
 
     }
-    
-           
-
-    }
     .top-section{
         position: relative;
         margin: auto;
@@ -124,5 +120,72 @@
         
 }
 
-@media only screen and (max-width:px){
+/* tablat device */
+@media only screen and (min-width:688px) and (max-width:992px){
+    
+     
+       
+    .header-area{
+        text-align: center;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;  
+
+    }
+    
+    .top-section{
+        position: relative;
+        margin: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 720px;
+        margin-left: 10px;
+
+        }
+    .right-area img{
+        width: 80%;
+        position: absolute;
+        margin-left: 80px;
+
+    }
+    .left-area {
+        width: 100%;
+        
+    }
+    .left-area h1{
+        font-size: 68px;
+        text-align: center;
+    }
+    .left-area p{
+        text-align: center;
+    }
+    .btn{
+        text-align: center;
+        margin-left: 250px;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .right-area img{
+    width: 80%;
+    margin: 30px  
+    }
+
+    .brand-logo{
+    display: block;
+    margin: 0px 0px ;
+    text-align: center;
+    }
+    .brand-logo img{
+    justify-content: center;
+    padding: 10px 10px ;
+    }
+    .products-area{
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:space-between;
+    margin-left: 20px;
+    }
+}
+
+
 
